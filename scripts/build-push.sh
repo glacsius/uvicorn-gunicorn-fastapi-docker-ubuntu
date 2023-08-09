@@ -2,7 +2,7 @@
 
 set -e
 
-use_tag="tiangolo/uvicorn-gunicorn-fastapi:$NAME"
+use_tag="glacsius/uvicorn-gunicorn-fastapi-docker-ubuntu:$NAME"
 use_dated_tag="${use_tag}-$(date -I)"
 
 bash scripts/build.sh
