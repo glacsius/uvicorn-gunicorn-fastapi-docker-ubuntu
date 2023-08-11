@@ -21,7 +21,7 @@ LABEL maintainer="Glaucio <glacsius@gmail.com>"
 
 
 COPY requirements.txt /tmp/requirements.txt
-RUN pip install --no-cache-dir -r /tmp/requirements.txt
+RUN pip install --no-cache-dir -r /tmp/requirements.txt --break-system-packages
 
 COPY ./start.sh /start.sh
 RUN chmod +x /start.sh
