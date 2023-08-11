@@ -3,8 +3,9 @@ import subprocess
 import sys
 
 environments = [
-    {"NAME": "latest", "PYTHON_VERSION": "3.11"},
-    {"NAME": "python3.11", "PYTHON_VERSION": "3.11"}
+    {"NAME": "latest", "PYTHON_VERSION": "3.11.4"},
+    {"NAME": "python3.10.12", "PYTHON_VERSION": "3.10.12"},
+    {"NAME": "python3.11.4", "PYTHON_VERSION": "3.11.4"}
 ]
 
 start_with = os.environ.get("START_WITH")
