@@ -12,7 +12,9 @@ jobs:
       matrix:
         image:
           - name: latest
-            python_version: "3.11"
+            python_version: "3.11.4"
+          - name: python3.11.4
+            python_version: "3.11.4"
       fail-fast: true
     runs-on: ubuntu-latest
     steps:
@@ -22,7 +24,7 @@ jobs:
         with:
           python-version: "3.7"
       - name: Install Dependencies
-        run: python3.7 -m pip install "docker>=4.4.4,<5.0.0" "pytest>=6.2.4,<7.0.0"
+        run: python3.7 -m pip install "docker>=4.4.4,<5.0.0"
       - name: Deploy Image
         run: bash scripts/build-push.sh
         env:
