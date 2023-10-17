@@ -1,10 +1,10 @@
 
 ## Links `Dockerfile`
 
-* [`python3.11.4`, `latest` _(Dockerfile)_](https://github.com/glacsius/uvicorn-gunicorn-fastapi-docker-ubuntu/blob/master/docker-images/python3.11.4.dockerfile)
-
-
 * [`python3.11.6`, `latest` _(Dockerfile)_](https://github.com/glacsius/uvicorn-gunicorn-fastapi-docker-ubuntu/blob/master/docker-images/python3.11.6.dockerfile)
+
+* [`python3.11.4` _(Dockerfile)_](https://github.com/glacsius/uvicorn-gunicorn-fastapi-docker-ubuntu/blob/master/docker-images/python3.11.4.dockerfile)
+
 
 
 ## Origem
